@@ -1,13 +1,46 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  monospace;
+}
+
+
+.devisElem {
+  border-width:1px;
+  border-style:dotted;
+  border-color:black;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.button {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
+.headerTitle {
+  text-align: center;
+}
+
+.logo{
+  max-width: 200px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.logo img{
+  max-width: 200px;
 }
